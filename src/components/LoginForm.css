@@ -1,0 +1,117 @@
+
+.form1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    row-gap: 1rem;
+    margin-top: -0.9rem;
+}
+.lab{
+    width: 100%;
+    position: relative;
+}
+.field{color: #f7f7f7;
+    margin-bottom: 0.25rem;
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+
+}
+.star{
+    color: red;
+    
+    
+}
+.input{
+    background-color: #1a1a1a;
+    color: #f7f7f7;
+    padding: 12px;
+    border-radius: 0.5rem;
+    width: 94.4444445%;
+    
+    border: none;
+    border-bottom: 0.1px solid #f7f7f7;
+}
+.input:focus{
+    border: 2px solid #0a4481;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.eyes{
+    position: absolute;
+    right: 1.5rem;
+    top: 53px;
+    cursor: pointer;
+}
+.eyes1{   position: absolute;
+    cursor: pointer;
+    right: 0.1rem;
+    top: 51px;
+
+
+}
+.eyes2{ position: absolute;
+    cursor: pointer;
+    right: 0.1rem;
+    top: 51px;
+
+}
+.fp{
+    font-size: 0.755rem;
+    margin-top: 0.25rem;
+    color: #77c8f3;
+    max-width: max-content;
+    margin-left: 345px;
+    
+    
+}
+.links{
+    text-decoration: none;
+}
+.btn1{color: black;
+    background-color: #f8ca13;
+    border-radius: 8px;
+    font-size: medium;
+    padding: 8px 12px;
+    /* width: 97.6666667%; */
+    width: 100%;
+
+}
+.first{
+    display: flex;
+    /* justify-content: space-between; */
+    column-gap: 20px;
+    /* width: 100%; */
+    
+}
+.lab1{
+    width: 46.3333334%;
+}
+.btn2{
+    margin-top: 20px;
+}
+.btnn{
+    display: flex;
+    background-color: #0D0D0D;
+    padding: 0.3rem;
+    column-gap: 0.25rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 9999px;
+    max-width: max-content;
+}
+.class1{background-color: #070707;
+    color: #fcfafa;
+    border-radius: 50px;
+    transition: all;
+    transition-duration: 200ms;
+    padding: 0.5rem 1.2rem;
+
+}
+.class2{background-color: transparent;
+    color: #8f8c8c94;
+    border-radius: 50px;
+    transition: all;
+    transition-duration: 200ms;
+    padding: 0.5rem 1.2rem;
+
+}
